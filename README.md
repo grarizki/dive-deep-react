@@ -8,3 +8,4 @@ Build a website using React features
 - ES6 
 - Database
 - Authentication
+- Projects
