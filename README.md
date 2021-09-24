@@ -1,11 +1,14 @@
 # Journey to Mastering React
+
 Build a website using React features
+
 - Components
 - State
 - Redux
 - Routing
 - Hooks
-- ES6 
+- ES6
 - Database
 - Authentication
 - Projects
+- Axios

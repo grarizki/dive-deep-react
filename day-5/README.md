@@ -1,5 +1,9 @@
-# learn how to use axios
+# Learn Axios
 
-Source
+## Documentations
 
-[Axios](https://www.freecodecamp.org/news/how-to-use-axios-with-react/)
+[Axios](https://www.npmjs.com/package/axios)
+
+## Articles
+
+[How to use Axios](https://www.freecodecamp.org/news/how-to-use-axios-with-react/)
