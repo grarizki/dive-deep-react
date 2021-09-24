@@ -1,4 +1,14 @@
-# Getting Started with Create React App
+# Learning Axios & Redux
+
+## Documentations
+
+[React Redux](https://redux.js.org/usage/index)
+
+## Articles
+
+[What is Redux?](https://dev.to/codebucks/what-is-redux-simply-explained-2ch7)
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
