@@ -2,9 +2,13 @@
 
 ## Documentations
 
+[Axios](https://www.npmjs.com/package/axios)
+
 [React Redux](https://redux.js.org/usage/index)
 
 ## Articles
+
+[How to use Axios](https://www.freecodecamp.org/news/how-to-use-axios-with-react/)
 
 [What is Redux?](https://dev.to/codebucks/what-is-redux-simply-explained-2ch7)
 
