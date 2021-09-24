@@ -60,6 +60,10 @@
 - [ ] React-hook-form & yup
 - [ ] React Router
 
+## Learn Typescript
+
+- [ ] TypeScript
+
 # Learn Next.js / Vue.js / Angular.js
 
 - [ ] Next.js
