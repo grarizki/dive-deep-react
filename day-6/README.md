@@ -4,6 +4,8 @@
 
 [Axios](https://www.npmjs.com/package/axios)
 
+[JSON Fake REST](https://jsonplaceholder.typicode.com/)
+
 [React Redux](https://redux.js.org/usage/index)
 
 ## Articles
