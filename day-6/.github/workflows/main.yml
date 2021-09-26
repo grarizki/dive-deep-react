@@ -1,0 +1,33 @@
+name: Linter
+
+# Kapan workflow ini dijalankan dibagian apa
+
+# Ngerjain yml perhatiin indentasi
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  run-linters:
+    name: run-linters
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest] #free pake ubuntu
+        node: [13.x, 14.x, 15.x]
+
+    steps:
+      - name: Checkout git repository
+      - uses: actions/checkout@v2
+
+      - node: Setup node env
+        uses: actions/setup-node@v2.1.2
+        with:
+          node-versions: ${{ matrix.node }}
+
+      - name: install dependencies
+        uses: npm install
+
+      - name: run linter
+        run: npm run lint
