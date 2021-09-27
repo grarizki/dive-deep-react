@@ -1,12 +1,14 @@
+# label workflow
 name: Linter
 
-# Kapan workflow ini dijalankan dibagian apa
-
-# Ngerjain yml perhatiin indentasi
+# executes workflows that are defined with the on key
 on:
   push:
     branches:
       - master
+      - staging
+      - development
+      - uat
 
 jobs:
   run-linters:
@@ -14,20 +16,21 @@ jobs:
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
-        os: [ubuntu-latest] #free pake ubuntu
-        node: [13.x, 14.x, 15.x]
+        os: [ubuntu-latest]
+        # node: [13.x, 14.x, 15.x]
 
+    # A step is a sequence of tasks
     steps:
       - name: Checkout git repository
-      - uses: actions/checkout@v2
+        uses: actions/checkout@v2
 
-      - node: Setup node env
-        uses: actions/setup-node@v2.1.2
-        with:
-          node-versions: ${{ matrix.node }}
+      # - name: Setup node env
+      #   uses: actions/setup-node@v2.1.2
+      #   with:
+      #     node-version: ${{ matrix.node }}
 
-      - name: install dependencies
-        uses: npm install
+      - name: instal dependencies
+        run: npm install
 
       - name: run linter
         run: npm run lint
