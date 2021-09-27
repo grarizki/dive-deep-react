@@ -68,7 +68,13 @@
 
 - [ ] Next.js
 - [ ] Vue.js
-- [ ] Angular.js
+- [ ] Angular.
+
+# Learn CI/CD
+
+- [ ] Continuous Integration
+- [ ] Continuous Deployment
+- [ ] Github Workflow
 
 ## Markdown Cheatsheet
 
